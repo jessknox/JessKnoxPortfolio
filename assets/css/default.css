@@ -1,0 +1,144 @@
+*{box-sizing: border-box;}
+@font-face {
+  /* font-family: Leimzy;
+  src: ./assets/Leimzy-Regular.otf; */
+}
+
+p {
+  color: #7BDBFF;
+  /* font-family: Leimzy; */
+  font-size: 20px;
+  padding: 0%;
+}
+
+img {
+  width:100%;
+}
+
+body{
+  margin:10px;
+  padding: 0;
+  background-color: #FBFF9E;
+  color: #7BDBFF;
+cursor: crosshair;
+  /* font-family: Leimzy; */
+  font-size: 20px;
+overflow: scroll;
+
+}
+
+a{
+  text-decoration: none;
+  color: #7BDBFF;
+  cursor: crosshair;
+}
+
+a:hover{
+  color: #A6D609;
+  cursor: crosshair;
+}
+
+.frame-draggy:hover{
+  cursor: move;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e6f936;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
+.tillie: hover{
+  cursor: url("./assets/images/raggy.png"), auto;
+}
+
+
+
+.hide{
+  position:sticky;
+  float: right;
+  top: 0px;
+}
+
+.twogriffs{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+left: 30%;
+}
+
+.grifftext{
+  width:25%;
+}
+
+.sidebar{
+  /* outline-color: red;
+  outline-style: solid; */
+  position: absolute;
+  height: 50%;
+  width: 10%;
+  overflow: scroll;
+  margin: 20px;
+  float: left;
+}
+
+.sidebar2{
+  /* outline-color: yellow;
+  outline-style: solid; */
+  float: left;
+  height: 50%;
+  width: 10%;
+  overflow: scroll;
+  margin: 20px;
+position: fixed;
+left: 15%;
+}
+
+
+
+h3{
+  color:#00ABB4;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.portfoliolink{
+  float: left;
+  height: 50%;
+  width: 10%;
+  overflow: scroll;
+  margin: 20px;
+position: fixed;
+left: 15%;
+}
+
+
+.photos{
+  position: relative;
+  left: 5%;
+  height: 80%;
+  width: 30%;
+  margin: 10%;
+  float: left;
+
+}
+
+  .photos:hover{
+    filter: drop-shadow(0 0 30px #CEFA05);
+  }
