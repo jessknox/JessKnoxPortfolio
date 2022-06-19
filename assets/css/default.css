@@ -18,12 +18,12 @@ img {
 body{
   margin:10px;
   padding: 0;
-  background-color: #FBFF9E;
+  background-color: #90a364;
   color: #7BDBFF;
 cursor: crosshair;
   /* font-family: Leimzy; */
   font-size: 20px;
-overflow: scroll;
+  overflow: hidden;
 
 }
 
@@ -63,36 +63,13 @@ a:hover{
   background: black;
 }
 
-.tillie: hover{
-  cursor: url("./assets/images/raggy.png"), auto;
-}
-
-
-
-.hide{
-  position:sticky;
-  float: right;
-  top: 0px;
-}
-
-.twogriffs{
-  display: block;
-margin-left: auto;
-margin-right: auto;
-left: 30%;
-}
-
-.grifftext{
-  width:25%;
-}
-
 .sidebar{
   /* outline-color: red;
   outline-style: solid; */
-  position: absolute;
+  position: fixed;
   height: 50%;
   width: 10%;
-  overflow: scroll;
+  overflow: auto;
   margin: 20px;
   float: left;
 }
@@ -103,12 +80,23 @@ left: 30%;
   float: left;
   height: 50%;
   width: 10%;
-  overflow: scroll;
+  overflow: auto;
   margin: 20px;
 position: fixed;
 left: 15%;
 }
 
+.thirdcolumn{
+  width: 80%;
+  height: 100%;
+  /* border-color: blue;
+  border-style: solid; */
+  position: fixed;
+  float: left;
+  margin: 5px;
+  left: 30%;
+  overflow-x: scroll;
+}
 
 
 h3{
@@ -134,7 +122,7 @@ left: 15%;
   left: 5%;
   height: 80%;
   width: 30%;
-  margin: 10%;
+  margin: 20px;
   float: left;
 
 }
@@ -142,3 +130,120 @@ left: 15%;
   .photos:hover{
     filter: drop-shadow(0 0 30px #CEFA05);
   }
+
+  .sequential-container{
+      position: relative;
+      left: 5%;
+      height:80%;
+      width: 30%;
+      float: left;
+      /* border-color: purple;
+      border-style: solid; */
+      margin: 20px;
+    }
+
+    .sequential-container:hover{
+      filter: drop-shadow(0 0 30px #CEFA05);
+    }
+
+    .sequentialcover{
+    position: absolute;
+      top: 0px;
+      left: 0px;
+    z-index: 2;
+    width: 100%;
+    }
+
+    .sequentialcover:hover{
+      filter: opacity(0%);
+    }
+
+    .sequential{
+    position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: 1;
+      width: 100%;
+    }
+
+    .process1-container{
+        position: relative;
+        left: 5%;
+        height:80%;
+        width: 30%;
+        float: left;
+        /* border-color: purple;
+        border-style: solid; */
+        margin: 20px;
+      }
+
+      .process1-container:hover{
+        filter: drop-shadow(0 0 30px #CEFA05);
+      }
+
+      .process1cover{
+      position: absolute;
+        top: 0px;
+        left: 0px;
+      z-index: 2;
+      /* width: 100%; */
+      height: 200%;
+      }
+
+      .process1cover:hover{
+        filter: opacity(0%);
+      }
+
+      .process1{
+      position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        width: 100%;
+      }
+
+      .infographic-container{
+        position: relative;
+        left: 5%;
+        margin: 20px;
+        height: 80%;
+        width: 60%;
+        border-color: pink;
+        border-style: solid;
+      }
+
+      .process2-container{
+          position: relative;
+          left: 5%;
+          height:80%;
+          width: 30%;
+          float: left;
+          /* border-color: purple;
+          border-style: solid; */
+          margin: 20px;
+        }
+
+        .process2-container:hover{
+          filter: drop-shadow(0 0 30px #CEFA05);
+        }
+
+        .process2cover{
+        position: absolute;
+          top: 0px;
+          left: 0px;
+        z-index: 2;
+        /* width: 100%; */
+        height: 200%;
+        }
+
+        .process2cover:hover{
+          filter: opacity(0%);
+        }
+
+        .process2{
+        position: absolute;
+          top: 0px;
+          left: 0px;
+          z-index: 1;
+          width: 100%;
+        }
